@@ -1,0 +1,95 @@
+.Background {
+    padding: 0;
+    margin: 0;
+    background-color: grey;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(120deg,rgb(2, 177, 11), rgb(60, 0, 255), rgb(255, 4, 4));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 620px) {
+    .Header {
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+    }
+}
+
+.HeaderUnderScore {
+    display: flex;
+    justify-content: center;
+    background: -webkit-linear-gradient(120deg,rgb(2, 177, 11), rgb(60, 0, 255), rgb(255, 4, 4));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 50px;
+    overflow: hidden;
+}
+
+.FirstNewsHeader {
+    justify-content: center;
+    display: flex;
+}
+
+.FirstNewsParent {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.FirstNewsChild {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+}
+
+
+.SecondNewsHeader {
+    justify-content: center;
+    display: flex;
+}
+
+.SecondNewsParent {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.SecondNewsChild {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+}
+
+.ThirdNewsHeader {
+    justify-content: center;
+    display: flex;
+}
+
+.ThirdNewsParent {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.ThirdNewsChild {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+}
+
